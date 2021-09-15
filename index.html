@@ -1,0 +1,64 @@
+<!doctype html>
+<html amp lang="en">
+  <head>
+    <meta charset="utf-8">
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <title>FARR</title>
+    <link rel="canonical" href="https://amp.dev/documentation/guides-and-tutorials/start/create/basic_markup/">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+    <style amp-custom>
+      /* any custom styles go here. */
+      body {
+        background-color: white;
+      }
+      amp-img {
+        border: 5px solid black;
+      }
+
+      amp-img.grey-placeholder {
+        background-color: grey;
+      }
+      .image {
+        width: 100vw;
+        margin: 0 auto;
+
+      }
+      button{
+        position: absolute;
+        top: 59%;
+        left: 20%;
+        padding: 15px 10px;
+        background-color: red;
+        border-radius: 10px;
+        border: 3px solid #000;
+        animation: pulse 1s infinite;
+      }
+      @keyframes pulse {
+        from {
+    opacity: 1;
+    transform: scale(0.97, 0.97);
+  }
+ 
+  to {
+    opacity: 1;
+    transform: scale(1.01, 1.01);
+  }
+      }
+      a{
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #fff;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    
+    <div class="image">
+      <amp-img src="farr_amp.png" alt="FARR" height="1920" width="1080" layout="responsive"></amp-img>
+    </div>
+
+    <button><a href="tel: +380684132259">Зателефонувати</a></button>
+  </body>
+</html>
